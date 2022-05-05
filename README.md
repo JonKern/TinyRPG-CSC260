@@ -5,7 +5,9 @@ Final Project CSC-260 Spring 2022
 Demonstrated use of Version Control by using GitHub for commits
 
 ## UML Diagram
-https://github.com/JonKern/TinyRPG-CSC260/blob/main/README_Assets/UML_Diagram/UML_Diagram.png?raw=true
+![UMLDiagram(https://github.com/JonKern/TinyRPG-CSC260/blob/main/README_Assets/UML_Diagram/UML_Diagram.png)
+
+/README_Assets/UML_Diagram/UML_Diagram.png
 
 ## Documented Test Cases and Testing
 Test Cases:
