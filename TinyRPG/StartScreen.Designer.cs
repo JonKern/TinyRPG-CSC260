@@ -43,8 +43,7 @@
             this.lblStartScreenTitle.Name = "lblStartScreenTitle";
             this.lblStartScreenTitle.Size = new System.Drawing.Size(564, 143);
             this.lblStartScreenTitle.TabIndex = 0;
-            this.lblStartScreenTitle.Text = "Tiny RPG";
-            this.lblStartScreenTitle.Click += new System.EventHandler(this.lblStartScreenTitle_Click);
+            this.lblStartScreenTitle.Text = "Tiny RPG";            
             // 
             // lblStartScreenClassInfo
             // 
@@ -77,7 +76,7 @@
             this.btnStartScreenStart.TabIndex = 3;
             this.btnStartScreenStart.Text = "Start Game";
             this.btnStartScreenStart.UseVisualStyleBackColor = true;
-            this.btnStartScreenStart.Click += new System.EventHandler(this.LoadGame);
+            this.btnStartScreenStart.Click += new System.EventHandler(this.btnStartGame);
             // 
             // StartScreen
             // 
