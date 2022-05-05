@@ -8,14 +8,37 @@ namespace Engine
 {
     public class Player : Alive
     {
-        public int Gold { get; set; }
-        public int XP { get; set; }
-        public int Level { get; set; }
+        private int goldValue;
+        private int xpValue;
+        private int levelValue;
+        public int Gold
+        {
+            get
+            { return goldValue; }
+            set
+            { goldValue = value; }
+        }
+        public int XP 
+        {
+            get
+            { return xpValue; }
+            set
+            { xpValue = value; } 
+        }
+        public int Level 
+        {
+            get
+            { return levelValue; }
+            set
+            { levelValue = value; }
+        }
+    
         public DungeonRooms CurrentRoom { get; set; }
         public List<InventItem> Invent { get; set; }
         public List<PlayerQuest> Quests { get; set; }
 
-        public Player(int currentHitPoints, int maximumHitPoints, int gold, int xP, int level) : base(currentHitPoints, maximumHitPoints)
+        public Player(int currentHitPoints, int maximumHitPoints, int gold, int xP, int level) 
+            : base(currentHitPoints, maximumHitPoints)
         {
             Gold = gold;
             XP = xP;
@@ -23,6 +46,12 @@ namespace Engine
 
             Invent = new List<InventItem>();
             Quests = new List<PlayerQuest>();
+        }
+
+        public void viewStats(Player player)
+        {
+            string statsToPrint = "Player Stats" + "\nMax HP: " + MaxHP
+                + "\nCurrent HP: " + CurrentHP + "\nXP: " + XP + "\nLevel: " + Level;
         }
 
         public bool HasRequiredItemToEnterThisLocation(DungeonRooms room)
@@ -151,6 +180,6 @@ namespace Engine
                     return; // We found the quest, and marked it complete, so get out of this function
                 }
             }
-        }
+        }     
     }
 }

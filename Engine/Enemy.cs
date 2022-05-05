@@ -16,8 +16,8 @@ namespace Engine
         public List<LootItem> LootTable { get; set; }
 
         public Enemy(int id, string name, int maxDamage, int rewardXP,
-            int rewardGold, int currentHitPoints, int maximumHitPoints) : base(currentHitPoints,
-                maximumHitPoints)
+            int rewardGold, int currentHP, int maxHP) : base(currentHP,
+                maxHP)
         {
             ID = id;
             Name = name;
@@ -25,6 +25,12 @@ namespace Engine
             RewardXP = rewardXP;
             RewardGold = rewardGold;
             LootTable = new List<LootItem>();
+        }
+
+        public void viewStats(Enemy enemy)
+        {
+            string statsToPrint = Name + " Stats" + "\nMax HP: " + MaxHP
+                + "\nCurrent HP: " + CurrentHP + "\nMax Damage: " + MaxDamage;
         }
     }
 }
