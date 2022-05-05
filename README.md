@@ -1,5 +1,5 @@
 # TinyRPG-CSC260
-Final Project CSC-260 Spring 2022
+Final Project CSC-260 Spring 2022, Jon Kern-Anderson
 
 ## Version Control
 Demonstrated use of Version Control by using GitHub for commits
@@ -47,5 +47,5 @@ Test Cases:
 ![Encapsulation2](/README_Assets/Encapsulation/Encapsulation_Player.png)
 
 ## Polymorphism
-![Polymorphism](/README_Assets/Polymorphism/Polymorphism_Enemy.png)
-![Polymorphism](/README_Assets/Polymorphism/Polymorphism_Player.png)
+![Polymorphism1](/README_Assets/Polymorphism/Polymorphism_Enemy.png)
+![Polymorphism2](/README_Assets/Polymorphism/Polymorphism_Player.png)
