@@ -47,3 +47,5 @@ Test Cases:
 ![Encapsulation2](/README_Assets/Encapsulation/Encapsulation_Player.png)
 
 ## Polymorphism
+![Polymorphism](/README_Assets/Polymorphism/Polymorphism_Enemy.png)
+![Polymorphism](/README_Assets/Polymorphism/Polymorphism_Player.png)
