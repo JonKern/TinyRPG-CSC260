@@ -28,9 +28,9 @@ Test Cases:
 ![Inheritance3](/README_Assets/Inheritance/Inheritance_Alive_Player.png)
 
 ### Inheritance Example 2
-![Inheritance1](/README_Assets/Inheritance/Inheritance_Item.png)
-![Inheritance1](/README_Assets/Inheritance/Inheritance_Item_Weapon.png)
-![Inheritance1](/README_Assets/Inheritance/Inheritance_Healing.png)
+![Inheritance4](/README_Assets/Inheritance/Inheritance_Item.png)
+![Inheritance5](/README_Assets/Inheritance/Inheritance_Item_Weapon.png)
+![Inheritance6](/README_Assets/Inheritance/Inheritance_Item_Healing.png)
 
 
 ## Encapsulation
