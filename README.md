@@ -22,6 +22,16 @@ Test Cases:
 > Does death send you to the beginning of the dungeon?
 
 ## Inheritance
+### Inheritance Example 1
+![Inheritance1](/README_Assets/Inheritance/Inheritance_Alive.png)
+![Inheritance2](/README_Assets/Inheritance/Inheritance_Alive_Enemy.png)
+![Inheritance3](/README_Assets/Inheritance/Inheritance_Alive_Player.png)
+
+### Inheritance Example 2
+![Inheritance1](/README_Assets/Inheritance/Inheritance_Item.png)
+![Inheritance1](/README_Assets/Inheritance/Inheritance_Item_Weapon.png)
+![Inheritance1](/README_Assets/Inheritance/Inheritance_Healing.png)
+
 
 ## Encapsulation
 
